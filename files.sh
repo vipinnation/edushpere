@@ -1,6 +1,6 @@
-# #!/bin/bash
+#!/bin/bash
 
-# # Set the source and destination paths
+# Set the source and destination paths
 # src_path="./api-doc"
 # dest_path="./dist/api-doc/"
 
@@ -14,14 +14,14 @@
 
 # src_dir="./app/emails/templates"
 # dest_dir="./dist/app/emails/templates"
-# # Set the list of files and directories to exclude
-# # exclude_list=( "file1.txt" "dir1" "dir2" )
-# # Copy the directory, excluding the specified files and directories
-# # rsync -av --exclude "${exclude_list[@]}" "$src_dir/" "$dest_dir/"
+# Set the list of files and directories to exclude
+# exclude_list=( "file1.txt" "dir1" "dir2" )
+# Copy the directory, excluding the specified files and directories
+# rsync -av --exclude "${exclude_list[@]}" "$src_dir/" "$dest_dir/"
 # rsync -av  "$src_dir/" "$dest_dir/"
 
 
-# views_dir="./views"
-# views_dest_dir="./dist/views"
+views_dir="./views"
+views_dest_dir="./dist/views"
 
-# rsync -av   "$views_dir/" "$views_dest_dir/"
+rsync -av   "$views_dir/" "$views_dest_dir/"
