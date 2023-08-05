@@ -24,4 +24,4 @@
 views_dir="./views"
 views_dest_dir="./dist/views"
 
-rsync -av   "$views_dir/" "$views_dest_dir/"
+cp -r  "$views_dir/" "$views_dest_dir/"

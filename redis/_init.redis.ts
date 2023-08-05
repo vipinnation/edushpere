@@ -2,7 +2,7 @@ import { createClient } from 'redis';
 import Logger from '../library/logger';
 
 // Connecting redis
-const client = createClient();
+const client = createClient({ url: 'redis://redis:6379' });
 
 client.on('error', (err) => Logger.error(err));
 client.on('connect', () => Logger.success('Redis connected successfully'));

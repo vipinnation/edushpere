@@ -10,7 +10,8 @@
     "build:dev": "rm -rf dist && npx tsc && npm run move-files",
     "test": "jest --watch",
     "lint": "eslint --fix --ext .ts",
-    "move-files": "bash files.sh"
+    "move-files": "sh files.sh",
+    "local": "docker-compose -f .docker/docker-compose-dev.yml up"
   },
   "author": "Vipin Meghwal",
   "license": "ISC",
