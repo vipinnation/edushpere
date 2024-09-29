@@ -1,1 +1,1 @@
-# Graph-QL
+# Edusphere

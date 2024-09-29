@@ -5,7 +5,7 @@ const routes = express.Router();
 
 routes.get('/', (req: Request, res: Response) => {
     try {
-        res.send('Welcome to Graphical Api version 1.0 ');
+        res.send('Welcome to edusphere Api version 1.0 ');
     } catch (error) {
     }
 });
